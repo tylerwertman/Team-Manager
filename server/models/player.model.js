@@ -27,7 +27,7 @@ const playerSchema = new mongoose.Schema({
         default: "Undecided"
     }
 },
-// {timestamps:true}
+{timestamps:true}
 );
 
 module.exports = mongoose.model('Player', playerSchema);
